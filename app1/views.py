@@ -403,6 +403,9 @@ def alter_currency(request,pk):
 		print("added")
 		return redirect('/')
 
+def group_alt(request):
+    return render(request, 'group_alt.html')
+
 def load_centre(request):
 	if request.method=='POST':
 		nm=request.POST['cst_name']

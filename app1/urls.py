@@ -10,7 +10,7 @@ urlpatterns = [
 
 #.........................jisha..........................
     
-
+    path('group_alt',views.group_alt,name='group_alt'),
     path('ledgers/<int:pk>',views.ledgers,name='ledgers'),
 
     path('vouchers/<int:pk>',views.vouchers,name='vouchers'),
